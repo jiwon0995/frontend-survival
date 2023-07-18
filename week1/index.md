@@ -1,9 +1,21 @@
 ## 1주차
 
-#### 학습목표
+#### 1주차의 각오
 
-- [ ] 1. 개발 환경
-- [ ] 2. TypeScript
-- [ ] 3. React
-- [ ] 4. Testing Library
-- [ ] 5. Parcel & ESlint
+<img src="/public/1week.png" width="450px" title="" alt="1week"></img>
+
+---
+
+#### 학습 목표
+
+우선 세팅부터 제대로 배워보자.
+
+---
+
+### 수업 내용
+
+- [x] 개발 환경
+- [x] TypeScript
+- [ ] React
+- [ ] Testing Library
+- [ ] Parcel & ESlint
