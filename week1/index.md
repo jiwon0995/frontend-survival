@@ -4,14 +4,16 @@
 
 ---
 
-##### 🚩학습 목표
+##### 🚩 학습 목표
 
 우선 세팅부터 제대로 배워보자.
 
-##### 수업 내용
+<br />
+
+##### ✏️ 수업 내용
 
 - [x] 개발 환경
 - [x] TypeScript
-- [ ] React
-- [ ] Testing Library
-- [ ] Parcel & ESlint
+- [x] React
+- [x] Testing Library
+- [x] Parcel & ESlint
