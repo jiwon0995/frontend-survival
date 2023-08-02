@@ -10,3 +10,7 @@
 - [🐥 2주차](/week2/index.md)
   - [JSX](/week2/jsx.md)
   - [Virtual DOM](/week2/virtual-dom.md)
+
+- [🐥 3주차](/week3/index.md)
+  - [React Component](/week3/component.md)
+  - [React State](/week3/state.md)
