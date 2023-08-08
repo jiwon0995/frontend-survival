@@ -1,6 +1,6 @@
 ##### ✨3주차의 각오
 
-<img src="/public/3week.png" width="350px" alt=""></img>
+<img src="/public/3week.jpeg" width="350px" alt=""></img>
 
 ---
 
