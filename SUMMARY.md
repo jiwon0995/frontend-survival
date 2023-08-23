@@ -25,3 +25,7 @@
 - [🐥 5주차](/week5/index.md)
   - [TDD](/week5/tdd.md)
   - [React Testing Library](/week5/react-testing-library.md)
+
+- [🐥 6주차](/week6/index.md)
+  - [external store](/week6/external-store.md)
+  - [tsyringe](/week6/tsyringe.md)
