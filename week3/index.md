@@ -1,14 +1,16 @@
-##### ✨3주차의 각오
+# 🐥 3주차
 
-<img src="/public/3week.jpeg" width="350px" alt=""></img>
+**✨3주차의 각오**
 
----
+![](../public/3week.jpeg)
 
-##### 🚩 학습 목표
+***
+
+**🚩 학습 목표**
 
 Thinking in React
 
-##### ✏️ 수업 내용
+**✏️ 수업 내용**
 
-- [ ] React Component
-- [ ] React State
+* [ ] React Component
+* [ ] React State
