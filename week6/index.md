@@ -11,6 +11,6 @@
 ##### ✏️ 수업 내용
 
 - [x] External Store
-- [ ] TSyringe
-- [ ] Redux 따라하기
-- [ ] usestore-ts
+- [x] TSyringe
+- [] Redux 따라하기
+- [] usestore-ts
