@@ -7,27 +7,26 @@
 
 ---
 
-## 📍 Layered Architecture
+## 📍Layered Architecture
 
 계층화 아키텍쳐는 관심사 분리에 사용되는 아키텍쳐다.    
 각 계층은 관심사로 분리되어 있고, 하위 계층은 상위 계능의 기능을 사용할 수 없다.
 
-<br/>
+### 계층 (Layer)
 
-### Layer
+**Presentation Layer**   
 
-<span style="color:lightgreen">Presentation Layer</span> :   
 - 유저와 가장 가까운 계층
 - 유저의 입력을 받고, 유저에게 결과를 보여준다.
 - UI를 담당한다.   
 
-<span style="color:lightgreen">Business Layer</span> :   
+**Business Layer**   
 - Presentation Layer에서 얻은 데이터로 비지니스 로직을 수행한다.   
 
-<span style="color:lightgreen">persistence Layer</span> :   
+**persistence Layer**   
 - DB와 상호작용(CRUD)을 책임진다.   
 
-<span style="color:lightgreen">Database Layer</span>:    
+**Database Layer**    
 - 실제 Database를 관리한다.
 
 ---
@@ -46,11 +45,9 @@ Flux는 Facebook에서 클라이언트-사이드 웹 어플리케이션을 위�
 - Action : 이벤트/메세지 객체 같은 것
 
 ### 구조와 데이터 흐름
-<img src="/public/flux.png" width="350px" title="" ></img>
 
-<br/>
-
-<img src="/public/flux-2.png" width="350px" title=""></img>
+![Flux 데이터 흐름](/public/flux.png)
+![Flux 데이터 흐름](/public/flux-2.png)
 
 ---
 
@@ -114,11 +111,11 @@ export default function Counter() {
 
 ## ✏️ 정리
 - 공부한 내용   
-    [x] 관심사의 분리의 중요성과 필요한 이유    
-    [x] 관심사의 분리를 잘 하기위한 Layered Architecture   
-    [x] Flux Architecture의 구성요소와 데이터 흐름   
-    [x] useReducer가 무엇인지, 어떻게 사용하는지   
-    [x] useCallback의 정의
+    * [x] 관심사의 분리의 중요성과 필요한 이유    
+    * [x] 관심사의 분리를 잘 하기위한 Layered Architecture   
+    * [x] Flux Architecture의 구성요소와 데이터 흐름   
+    * [x] useReducer가 무엇인지, 어떻게 사용하는지   
+    * [x] useCallback의 정의
 
 - 더 공부할 것   
-    [] 코드를 Layered Architecture로 리팩토링해보기
+    * [ ] 코드를 Layered Architecture로 리팩토링해보기

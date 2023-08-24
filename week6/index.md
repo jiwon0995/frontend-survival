@@ -10,7 +10,7 @@
 
 ##### ✏️ 수업 내용
 
-- [x] External Store
-- [x] TSyringe
-- [] Redux 따라하기
-- [] usestore-ts
+* [x] External Store
+* [x] TSyringe
+* [ ] Redux
+* [ ] useStore-ts

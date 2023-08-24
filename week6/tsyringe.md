@@ -3,11 +3,11 @@ TSyringe는 의존성 주입(Dependency Injection)을 위한 라이브러리이�
 
 ---   
 
-### 📍의존성 주입(Dependency Injection)
+### 📍 의존성 주입(Dependency Injection)
 여러 컴포넌트가 있을 때, 하나의 컴포넌트가 다른 컴포넌트의 기능을 사용하거나 참조할 때, 의존성이 생긴다.   
 의존성 주입은 이런 의존성을 느슨하게 만들어주는 디자인 패턴이다.
 
-### 의존성 주입의 장점
+### 📍 의존성 주입의 장점
 
 - 컴포넌트 간의 의존성이 줄어들어 독립적으로 개발이 가능해진다.
 - 컴포넌트를 분리하고 재사용하기 쉬워진다.
@@ -15,7 +15,7 @@ TSyringe는 의존성 주입(Dependency Injection)을 위한 라이브러리이�
 
 ---
 
-### 📍reflect-metadata
+### 📍 reflect-metadata
 
 practice code
 
@@ -127,7 +127,7 @@ describe('APP', () => {
 
 ---
 
-## singleton (싱글톤)
+## 📍 singleton (싱글톤)
 싱글톤 패턴은 생성자가 여러 차례 호출되더라도 실제로 생성되는 객체는 하나이고,   
 최고 생성 이후에 호출된 생성자는 최초의 생성자가 생성한 객체를 리턴한다.
 
@@ -138,8 +138,8 @@ describe('APP', () => {
 
 ## ✏️ 정리
 - 공부한 내용   
-    [x] tsyringe를 사용해 기본적인 의존성 주입을 구현하기
-    [x] 싱글톤 패턴이 무엇인지 알기
+    * [x] tsyringe를 사용해 기본적인 의존성 주입을 구현하기   
+    * [x] 싱글톤 패턴이 무엇인지 알기
 
 - 더 공부할 것   
-    [] tsyringe practice code를 반복해서 연습 후 익히기
+    * [ ] tsyringe practice code를 반복해서 연습 후 익히기
