@@ -3,7 +3,7 @@ TSyringe는 의존성 주입(Dependency Injection)을 위한 라이브러리이�
 
 ---   
 
-### 📍 의존성 주입(Dependency Injection)
+## 📍 의존성 주입(Dependency Injection)
 여러 컴포넌트가 있을 때, 하나의 컴포넌트가 다른 컴포넌트의 기능을 사용하거나 참조할 때, 의존성이 생긴다.   
 의존성 주입은 이런 의존성을 느슨하게 만들어주는 디자인 패턴이다.
 
@@ -15,7 +15,7 @@ TSyringe는 의존성 주입(Dependency Injection)을 위한 라이브러리이�
 
 ---
 
-### 📍 reflect-metadata
+## 📍 reflect-metadata
 
 practice code
 
