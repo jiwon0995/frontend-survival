@@ -31,3 +31,7 @@
 - [🐥 6주차](/week6/index.md)
   - [external store](/week6/external-store.md)
   - [tsyringe](/week6/tsyringe.md)
+
+- [🐥 7주차](/week7/index.md)
+  - [routing](/week7/routing.md)
+  - [routes](/week7/routes.md)
