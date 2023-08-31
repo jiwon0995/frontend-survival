@@ -35,3 +35,5 @@
 - [🐥 7주차](/week7/index.md)
   - [routing](/week7/routing.md)
   - [routes](/week7/routes.md)
+  - [router](/week7/router.md)
+  - [navigation](/week7/navigation.md)

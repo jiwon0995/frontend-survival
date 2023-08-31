@@ -12,5 +12,5 @@ React에서 라우팅 처리하는 방법 배우기
 
 * [x] Routing
 * [x] Routes
-* [ ] Router
+* [x] Router
 * [ ] Navigation
