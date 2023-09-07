@@ -1,6 +1,6 @@
 ##### ✨8주차의 각오
 
-<img src="/public/8week.jpeg" width="350px" alt="집!중!"></img>
+<img src="/public/8week.jpeg" width="450px" alt="집!중!"></img>
 
 ---
 
@@ -13,5 +13,5 @@
 * [x] Design System
 * [x] Style Basics
 * [x] styled-components
-* [] Props와 attrs
-* [] Global Style & Theme
+* [ ] Props와 attrs
+* [ ] Global Style & Theme
