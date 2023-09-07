@@ -37,3 +37,8 @@
   - [routes](/week7/routes.md)
   - [router](/week7/router.md)
   - [navigation](/week7/navigation.md)
+
+- [🐥 8주차](/week8/index.md)
+  -[design system](/week8/design-system.md)
+  -[style basics](/week8/style-basics.md)
+  -[styled components](/week8/styled-components.md)
