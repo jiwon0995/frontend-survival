@@ -42,3 +42,6 @@
   - [design system](/week8/design-system.md)
   - [style basics](/week8/style-basics.md)
   - [styled components](/week8/styled-components.md)
+
+- [🐥 practice](/practice/index.md)
+  - [240102](/practice/240102.md)
