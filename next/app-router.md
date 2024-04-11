@@ -86,3 +86,72 @@ Next 문서에서는 그룹 라우터를 다음과 같은 상황에서 유용하
 ```
 
 `product`와 `account`는 `(shop)`안에 있는 layout.js를 공유할 수 있다.
+
+### Page
+
+Page Route 방식에는 url 경로가 될 폴더안에 index 파일을 만들어 줬다면 App Router에서는
+page 파일을 만들어 준다.
+
+``` bash
+    -app
+        -product
+            -page.js
+```
+
+``` js
+// `app/product/page.js` 
+ export default function ProductListPage() {
+    return <h1>Product List page </h1>
+ }
+```
+
+### Layout
+
+Layout은 같은 route 안에서 공유할 수 있는 UI이다.
+여러 page가 공통으로 사용하는 UI가 있다면 layout.js 파일안에 넣어주면 된다.
+
+``` js
+    export default function RootLayout({children}:{children: React.ReactNode}) {
+        return (
+            <html lang="en">
+                <body>
+                    <main>{children}</main>
+                </body>
+            </html>
+        )
+    }
+```
+
+Next는 layout을 먼저 랜더링 한 후, 해당 경로에 맞는 컴포넌트를 랜더링한다.
+/product 경로로 이동하면 화면은 다음과 같이 랜더링된다.
+
+``` js
+    <RootLayout>
+        <ProductList />
+    </RootLayout>
+```
+
+layout은 중첩으로 사용할 수 있다. route 폴더안에 layout 파일을 생성하면 같은 경로에 있는 페이지들은
+같은 layout을 공유하게 된다. 다음 폴더구조에서 product/about 경로로 이동하면 다음과 같이 랜더링된다.
+
+``` bash
+    -app
+        -page.js
+        -layout.js
+        -product
+            -page.js
+            -layout.js
+            -about
+                -page.js
+
+```
+
+``` js
+    <RootLayout>
+        <ProductLayout>
+            <Product>
+                <About />
+            </Product>
+        </ProductLayout>
+    </RootLayout>
+```
