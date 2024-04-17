@@ -44,6 +44,9 @@
   - [style basics](/week8/style-basics.md)
   - [styled components](/week8/styled-components.md)
 
+- [🐥 javascript](/javascript/index.md)
+  - [promise](/javascript/promise.md)
+
 - [🐥 practice](/practice/index.md)
   - [240102](/practice/240102.md)
   - [240103](/practice/240103.md)
