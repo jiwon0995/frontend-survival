@@ -115,3 +115,74 @@ const Component = () => {
     )
 }
 ```
+
+### useReducer
+
+리듀서는 복잡한 상태에 유용하다.
+
+``` javascript
+// useReducer를 사용한 간단한 예제
+const reducer = (state, action) => {
+    switch(action.type) {
+        case 'INCREMENT':
+            return {...state, count: state.count + 1};
+        case 'SET_TEXT':
+            return {...state, text: action.text};
+        default:
+            throw new Error('unknown action type')
+    }
+}
+
+const Component = () => {
+    const [state, dispatch] = useReducer(
+        reducer,
+        { count: 0, text: 'hi'}
+    );
+
+    return (
+        <div>
+            {state.count}
+            <button onClick={()=>dispatch({ type: 'INCREMENT' })}>
+                Increment count
+            </button>
+            <input
+                value={state.text}
+                onChange={(e) => dispatch({ type: 'SET_TEXT', text: e.target.value})}
+            />
+        </div>
+    )
+}
+```
+
+useReduce 베일 아웃 발생시키기
+
+``` javascript
+const reducer = (state, action) => {
+    switch(action.type) {
+        case 'INCREMENT':
+            return {...state, count: state.count + 1};
+        case 'SET_TEXT':
+            // state 자체를 변경하면 리렌더링이 되지 않는다.
+            if(!action.text) {
+                return state
+            }
+            return {...state, text: action.text};
+        default:
+            throw new Error('unknown action type')
+    }
+}
+```
+
+### useSate와 useReducer
+
+useReducer를 이용한 useState 구현하기
+
+``` javascript
+    const useState = (initialState) => {
+        const [state, dispatch] = useReducer(
+            (prev, action) => 
+            typeof action === 'function' ? action(prev) : action, initialState
+        )
+        return [state, dispatch];
+    }
+```
