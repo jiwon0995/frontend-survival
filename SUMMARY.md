@@ -56,6 +56,7 @@
 
 - [🐥 react](/react/index.md)
   - [state](/react/state.md)
+  - [global state](/react/global-state.md)
 
 - [🐥 Next.js](/next/index.md)
   - [app router](/next/app-router.md)
