@@ -100,3 +100,111 @@ const App = () => {
 6. MemoizedColorComponent는 컨텍스트가 변경됐기 때문에 리렌더링된다.
 
 ```memo```를 사용해도 컨텍스트 값이 변경되면 리렌더링을 막을 순 없다.
+
+## 컨텍스트를 사용한 모범 사례
+
+``` javascript
+
+// 초기값이 null인 컨텍스트 생성
+type CountContextType = [
+    number,
+    Dispatch<SetStateAction<number>>
+]
+
+const Count1Context = createContext<CountContextType | null>(null)
+```
+
+``` javascript
+// Count1Provider를 정의해서 useState로 상태를 생성하고 컨텍스트에 제공
+export const count1Provider = ({
+    children
+}: {
+    children: ReactNode 
+}) => {
+    <Count1Context.Provider value={useState(0)}>
+        {children}
+    </Count1Context.Provider>
+}
+```
+
+``` javascript
+// Count1Context에서 값을 가져오는 커스텀 훅
+export const useCount1 = () => {
+    const value = useContext(Count1Context)
+    if (value === null) throw new Error("Provider missing")
+    return value
+}
+```
+
+``` javascript
+// Count2Context를 생성
+const Count2Context = createContext<CountContextType | null>(null)
+
+export const Count2Provider = ({
+    children
+}: {
+    children: ReactNode
+}) => {
+    <Count2Context.Provider value={useState(0)}>
+        {children}
+    </Count2Context.Provider>
+}
+
+export const useCount2 = () => {
+    const value = useContext(Count2Context)
+    if (value === null) throw new Error("Provider missing")
+    return value
+}
+```
+
+``` javascript
+// count1을 사용하고 카운트와 버튼을 보여주는 컴포넌트
+const Counter1 = () => {
+    const [count1, setCount1] = useCount1()
+    return (
+        <div>
+            Count1: {count1}
+            <button onClick={() => setCount1((c) => c + 1)}>+1</button>
+        </div>
+    )
+}
+```
+
+``` javascript
+// count2를 사용하고 카운트와 버튼을 보여주는 컴포넌트
+const Counter2 = () => {
+    const [count2, setCount2] = useCount2()
+
+    return (
+        <div>
+            Count2: {count2}
+            <button onClick={() => setCount2((c) => c + 1)}>+1</button>
+        </div>
+    )
+}
+```
+
+``` javascript
+const parent = () => {
+    return (
+        <div>
+            <Counter1>
+            <Counter1>
+            <Counter2>
+            <Counter2>
+        </div>
+    )
+}
+```
+
+``` javascript
+const App = () => {
+    return (
+        <Count1Provider>
+            <Count2Provider>
+                <Parent />
+            </Count2Provider>
+        </Count1Provider>
+    )
+}
+```
