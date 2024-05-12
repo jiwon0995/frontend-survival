@@ -57,6 +57,7 @@
   - [240501](/practice/240501.md)
   - [240506](/practice/240506.md)
   - [240508](/practice/240508.md)
+  - [240512](/practice/240512.md)
 
 - [🐥 react](/react/index.md)
   - [state](/react/state.md)
