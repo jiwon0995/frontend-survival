@@ -63,6 +63,7 @@
   - [state](/react/state.md)
   - [global state](/react/global-state.md)
   - [Context](/react/useContext.md)
+  - [module state](/react/module-state.md)
 
 - [🐥 Next.js](/next/index.md)
   - [app router](/next/app-router.md)
