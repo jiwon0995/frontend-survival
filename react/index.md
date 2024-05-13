@@ -13,3 +13,4 @@ React 짱이되기
 * [x] State
 * [x] 전역 상태
 * [x] Context
+* [x] module state
