@@ -69,4 +69,6 @@
 
 - [🐥 Next.js](/next/index.md)
   - [app router](/next/app-router.md)
-  
+
+- [🐥 algorithm](/algorithm/index.md)
+  - [reverse string](/algorithm/reversestring.md)
