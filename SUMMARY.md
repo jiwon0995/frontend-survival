@@ -72,3 +72,4 @@
 
 - [🐥 algorithm](/algorithm/index.md)
   - [reverse string](/algorithm/reversestring.md)
+  - [palindrome](/algorithm/palindrome.md)
