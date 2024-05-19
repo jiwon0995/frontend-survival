@@ -9,3 +9,4 @@
 ## ✏️ 수업 내용
 
 * [x] reverse string
+* [x] palindrome
