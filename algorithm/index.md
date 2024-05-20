@@ -10,3 +10,4 @@
 
 * [x] reverse string
 * [x] palindrome
+* [x] reverse int
