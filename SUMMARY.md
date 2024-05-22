@@ -74,3 +74,4 @@
   - [reverse string](/algorithm/reversestring.md)
   - [palindrome](/algorithm/palindrome.md)
   - [reverse int](/algorithm/reverseInt.md)
+  - [max char](/algorithm/maxchars.md)
