@@ -75,3 +75,4 @@
   - [palindrome](/algorithm/palindrome.md)
   - [reverse int](/algorithm/reverseInt.md)
   - [max char](/algorithm/maxchars.md)
+  - [chunk](/algorithm/chunk.md)
