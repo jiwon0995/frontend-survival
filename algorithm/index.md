@@ -12,3 +12,4 @@
 * [x] palindrome
 * [x] reverse int
 * [x] max char
+* [ ] chunk
