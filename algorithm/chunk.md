@@ -24,6 +24,20 @@ function chunk(array, size) {
 }
 ```
 
+``` javascript
+function chunk() {
+    const chunked = [];
+    let index = 0;
+
+    while (index < array.length) {
+        chunked.push(array.slice(index, index + size));
+        index += size;
+    }
+
+    return chunked;
+}
+```
+
 ## Discussion
 
 쉬운 문제라고 생각했는데 last가 chunked를 참조하고 있다는걸 이해 못 해서 오래걸림...
