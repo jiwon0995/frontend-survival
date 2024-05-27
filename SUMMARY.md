@@ -76,3 +76,5 @@
   - [reverse int](/algorithm/reverseInt.md)
   - [max char](/algorithm/maxchars.md)
   - [chunk](/algorithm/chunk.md)
+  - [anagrams](/algorithm/anagrams.md)
+  
