@@ -13,4 +13,4 @@
 * [x] reverse int
 * [x] max char
 * [x] chunk
-* [ ] anagrams
+* [x] anagrams
