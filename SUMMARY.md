@@ -77,4 +77,5 @@
   - [max char](/algorithm/maxchars.md)
   - [chunk](/algorithm/chunk.md)
   - [anagrams](/algorithm/anagrams.md)
+  - [capitalize](/algorithm/capitalize.md)
   

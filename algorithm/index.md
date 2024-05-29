@@ -14,3 +14,4 @@
 * [x] max char
 * [x] chunk
 * [x] anagrams
+* [x] capitalize
