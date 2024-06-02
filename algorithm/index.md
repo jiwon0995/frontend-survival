@@ -15,3 +15,4 @@
 * [x] chunk
 * [x] anagrams
 * [x] capitalize
+* [x] printing step
