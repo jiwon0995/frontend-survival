@@ -78,4 +78,5 @@
   - [chunk](/algorithm/chunk.md)
   - [anagrams](/algorithm/anagrams.md)
   - [capitalize](/algorithm/capitalize.md)
+  - [printing step](/algorithm/printing-step.md)
   
