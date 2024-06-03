@@ -79,4 +79,5 @@
   - [anagrams](/algorithm/anagrams.md)
   - [capitalize](/algorithm/capitalize.md)
   - [printing step](/algorithm/printing-step.md)
+  - [pyramids](/algorithm/pyramids.md)
   
