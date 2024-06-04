@@ -17,3 +17,4 @@
 * [x] capitalize
 * [x] printing step
 * [ ] pyramid
+* [x] vowels
