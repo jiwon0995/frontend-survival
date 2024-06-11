@@ -18,3 +18,4 @@
 * [x] printing step
 * [ ] pyramid
 * [x] vowels
+* [x] matrix-spiral
