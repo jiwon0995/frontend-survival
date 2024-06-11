@@ -81,3 +81,4 @@
   - [printing step](/algorithm/printing-step.md)
   - [pyramids](/algorithm/pyramids.md)
   - [vowels](/algorithm/vowels.md)
+  - [matrix spiral](/algorithm/matrix-spiral.md)
