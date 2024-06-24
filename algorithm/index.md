@@ -19,3 +19,4 @@
 * [ ] pyramid
 * [x] vowels
 * [x] matrix-spiral
+* [x] queue from stack
