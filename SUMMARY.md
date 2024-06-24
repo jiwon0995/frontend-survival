@@ -82,3 +82,4 @@
   - [pyramids](/algorithm/pyramids.md)
   - [vowels](/algorithm/vowels.md)
   - [matrix spiral](/algorithm/matrix-spiral.md)
+  - [queue from stack](/algorithm/qfroms.md)
