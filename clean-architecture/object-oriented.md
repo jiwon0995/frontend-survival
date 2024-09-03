@@ -128,3 +128,11 @@ int main(int ac, char** av) {
 NamedPoint 데이터 구조가 Point 데이터 구조로부터 파생된 구조처럼 동작한다.
 NamedPoint가 Point를 포함하는 상위 집합으로, NamedPoint는 Point의 모든 멤버를 포함한다.
 이 방법으로 단일 상속을 구현할 수 있지만 다중 상속을 구현하기는 어렵다.
+
+***다형성***
+
+객체 지향 언어에서 다형성은 안전하고 편리하게 제공한다는 것은 소스 코드 의존성을 역전시킨다는 것이다.
+호출하는 모듈이든 호출되는 모듈이든 관계없이 소스 코드 의존성을 원하는 방향으로 설정할 수 있다.
+
+다형성 너무 어려워서 반복 학습 필요
+[참고](https://www.codestates.com/blog/content/%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%ED%8A%B9%EC%A7%95)
